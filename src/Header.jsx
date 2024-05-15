@@ -31,7 +31,7 @@ function Header() {
           </p>
           {/* form */}
           <div className="mt-12 flex">
-            <div className="relative border border-[#14141420] shadow-md bg-white sm-w-[40%] w-full h-[60px] pl-10">
+            <div className="relative border border-[#14141420] shadow-md bg-white sm:w-[40%] w-full h-[60px] pl-10">
               <div className="absolute left-3 h-full top-[35%]">
                 <img src={MagnifyingGlass} className="h-[16px] w-[16px]" />
               </div>
