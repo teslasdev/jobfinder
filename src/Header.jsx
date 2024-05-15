@@ -6,17 +6,17 @@ import MagnifyingGlass from './assets/MagnifyingGlass.png'
 function Header() {
   return (
     <>
-      <div className="fixed z-30 h-[7vh] bg-white w-full flex justify-between px-12 items-center">
+      <div className="fixed z-30 h-[7vh] bg-white w-full flex justify-between sm:px-12 px-6 items-center">
         <div>
           <img src={logo} className="w-[60px]" />
         </div>
         <div className="flex gap-5 font-medium">
           <p>Home</p>
-          <p>find Jobs</p>
+          <p>Find Jobs</p>
         </div>
       </div>
       <div className="h-[7vh] w-full"></div>
-      <div className="h-[379px] w-full bg-white relative flex justify-center items-center px-12">
+      <div className="h-[379px] w-full bg-white relative flex justify-center items-center sm:px-12 px-6">
         <div className="absolute right-0 h-full top-0">
           <img src={bg} className="h-full w-full" />
         </div>
@@ -38,7 +38,7 @@ function Header() {
 
               <input
                 type="text"
-                className="outline-none border-none w-full h-full"
+                className="outline-none text-[12px] border-none w-full h-full"
                 placeholder="What position are you looking for ?"
               />
             </div>

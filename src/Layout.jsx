@@ -16,14 +16,14 @@ function Layout() {
         </div>
 
         <div className="mt-12 flex flex-col gap-6">
-          <div className="w-full rounded-[20px] bg-white  gap-9 border border-[#00000020] shadow-md p-6 flex">
-            <div className="w-[72px] h-[72px]">
+          <div className="w-full rounded-[20px] bg-white  sm:gap-9 gap-2 border border-[#00000020] shadow-md sm:p-6 p-3 flex sm:flex-row flex-col">
+            <div className="sm:w-[72px] sm:h-[72px] w-[30px] h-[30px]">
               <img src={job1} className="w-full h-full" />
             </div>
-            <div className="w-[85%]">
+            <div className="sm:w-[85%] w-[100%]">
               <h4>Linear Company</h4>
               <div className="flex gap-2">
-                <h2 className="font-bold text-[24px]">Software Engineering</h2>
+                <h2 className="font-bold sm:text-[24px] text-[18px]">Software Engineering</h2>
                 <span className="bg-[#7D5AE230]  font-medium text-[#7D5AE2] flex justify-center items-center px-2 text-[12px] rounded-[8px]">
                   New Post
                 </span>
@@ -58,56 +58,14 @@ function Layout() {
             </div>
           </div>
 
-          <div className="w-full rounded-[20px] bg-white  gap-9 border border-[#00000020] shadow-md p-6 flex">
-            <div className="w-[72px] h-[72px]">
-              <img src={job2} className="w-full h-full" />
-            </div>
-            <div className="w-[85%]">
-              <h4>Notion</h4>
-              <div className="flex gap-2">
-                <h2 className="font-bold text-[24px]">Junior UI Designer</h2>
-                {/* <span className="bg-[#7D5AE230]  font-medium text-[#7D5AE2] flex justify-center items-center px-2 text-[12px] rounded-[8px]">
-                  New Post
-                </span> */}
-              </div>
-
-              <div className="flex w-full justify-between flex-wrap text-[#00000070] font-medium py-3">
-                <div className="flex gap-1 items-center">
-                  <img src={MapPinLine} className="w-[16px] h-[16px]" />
-                  <p>Brussels</p>
-                </div>
-
-                <div className="flex gap-1 items-center">
-                  <img src={Clock} className="w-[16px] h-[16px]" />
-                  <p>Full time</p>
-                </div>
-
-                <div className="flex gap-1 items-center">
-                  <img src={CurrencyDollar} className="w-[16px] h-[16px]" />
-                  <p>50-65k</p>
-                </div>
-
-                <div className="flex gap-1 items-center">
-                  <img src={CalendarBlank} className="w-[16px] h-[16px]" />
-                  <p>24mins Ago</p>
-                </div>
-              </div>
-              <p className="text-[#00000080] font-medium">
-                Mollit in laborum tempor Lorem incididunt irure. Aute eu ex ad
-                sunt. Pariatur sint culpa do incididunt eiusmod eiusmod culpa.
-                laborum tempor Lorem incididunt.
-              </p>
-            </div>
-          </div>
-
-          <div className="w-full rounded-[20px] bg-white  gap-9 border border-[#00000020] shadow-md p-6 flex">
-            <div className="w-[72px] h-[72px]">
+          <div className="w-full rounded-[20px] bg-white  sm:gap-9 gap-2 border border-[#00000020] shadow-md sm:p-6 p-3 flex sm:flex-row flex-col">
+            <div className="sm:w-[72px] sm:h-[72px] w-[30px] h-[30px]">
               <img src={job1} className="w-full h-full" />
             </div>
-            <div className="w-[85%]">
+            <div className="sm:w-[85%] w-[100%]">
               <h4>Linear Company</h4>
               <div className="flex gap-2">
-                <h2 className="font-bold text-[24px]">Software Engineering</h2>
+                <h2 className="font-bold sm:text-[24px] text-[18px]">Software Engineering</h2>
                 <span className="bg-[#7D5AE230]  font-medium text-[#7D5AE2] flex justify-center items-center px-2 text-[12px] rounded-[8px]">
                   New Post
                 </span>
@@ -142,56 +100,15 @@ function Layout() {
             </div>
           </div>
 
-          <div className="w-full rounded-[20px] bg-white  gap-9 border border-[#00000020] shadow-md p-6 flex">
-            <div className="w-[72px] h-[72px]">
-              <img src={job2} className="w-full h-full" />
-            </div>
-            <div className="w-[85%]">
-              <h4>Notion</h4>
-              <div className="flex gap-2">
-                <h2 className="font-bold text-[24px]">Junior UI Designer</h2>
-                {/* <span className="bg-[#7D5AE230]  font-medium text-[#7D5AE2] flex justify-center items-center px-2 text-[12px] rounded-[8px]">
-                  New Post
-                </span> */}
-              </div>
 
-              <div className="flex w-full justify-between flex-wrap text-[#00000070] font-medium py-3">
-                <div className="flex gap-1 items-center">
-                  <img src={MapPinLine} className="w-[16px] h-[16px]" />
-                  <p>Brussels</p>
-                </div>
-
-                <div className="flex gap-1 items-center">
-                  <img src={Clock} className="w-[16px] h-[16px]" />
-                  <p>Full time</p>
-                </div>
-
-                <div className="flex gap-1 items-center">
-                  <img src={CurrencyDollar} className="w-[16px] h-[16px]" />
-                  <p>50-65k</p>
-                </div>
-
-                <div className="flex gap-1 items-center">
-                  <img src={CalendarBlank} className="w-[16px] h-[16px]" />
-                  <p>24mins Ago</p>
-                </div>
-              </div>
-              <p className="text-[#00000080] font-medium">
-                Mollit in laborum tempor Lorem incididunt irure. Aute eu ex ad
-                sunt. Pariatur sint culpa do incididunt eiusmod eiusmod culpa.
-                laborum tempor Lorem incididunt.
-              </p>
-            </div>
-          </div>
-
-          <div className="w-full rounded-[20px] bg-white gap-9 border border-[#00000020] shadow-md p-6 flex">
-            <div className="w-[72px] h-[72px]">
+          <div className="w-full rounded-[20px] bg-white  sm:gap-9 gap-2 border border-[#00000020] shadow-md sm:p-6 p-3 flex sm:flex-row flex-col">
+            <div className="sm:w-[72px] sm:h-[72px] w-[30px] h-[30px]">
               <img src={job1} className="w-full h-full" />
             </div>
-            <div className="w-[85%]">
+            <div className="sm:w-[85%] w-[100%]">
               <h4>Linear Company</h4>
               <div className="flex gap-2">
-                <h2 className="font-bold text-[24px]">Software Engineering</h2>
+                <h2 className="font-bold sm:text-[24px] text-[18px]">Software Engineering</h2>
                 <span className="bg-[#7D5AE230]  font-medium text-[#7D5AE2] flex justify-center items-center px-2 text-[12px] rounded-[8px]">
                   New Post
                 </span>
@@ -226,17 +143,18 @@ function Layout() {
             </div>
           </div>
 
-          <div className="w-full rounded-[20px] bg-white gap-9 border border-[#00000020] shadow-md p-6 flex">
-            <div className="w-[72px] h-[72px]">
-              <img src={job2} className="w-full h-full" />
+
+          <div className="w-full rounded-[20px] bg-white  sm:gap-9 gap-2 border border-[#00000020] shadow-md sm:p-6 p-3 flex sm:flex-row flex-col">
+            <div className="sm:w-[72px] sm:h-[72px] w-[30px] h-[30px]">
+              <img src={job1} className="w-full h-full" />
             </div>
-            <div className="w-[85%]">
-              <h4>Notion</h4>
+            <div className="sm:w-[85%] w-[100%]">
+              <h4>Linear Company</h4>
               <div className="flex gap-2">
-                <h2 className="font-bold text-[24px]">Junior UI Designer</h2>
-                {/* <span className="bg-[#7D5AE230]  font-medium text-[#7D5AE2] flex justify-center items-center px-2 text-[12px] rounded-[8px]">
+                <h2 className="font-bold sm:text-[24px] text-[18px]">Software Engineering</h2>
+                <span className="bg-[#7D5AE230]  font-medium text-[#7D5AE2] flex justify-center items-center px-2 text-[12px] rounded-[8px]">
                   New Post
-                </span> */}
+                </span>
               </div>
 
               <div className="flex w-full justify-between flex-wrap text-[#00000070] font-medium py-3">
@@ -252,7 +170,7 @@ function Layout() {
 
                 <div className="flex gap-1 items-center">
                   <img src={CurrencyDollar} className="w-[16px] h-[16px]" />
-                  <p>50-65k</p>
+                  <p>325-500k</p>
                 </div>
 
                 <div className="flex gap-1 items-center">
@@ -267,6 +185,8 @@ function Layout() {
               </p>
             </div>
           </div>
+
+         
         </div>
       </div>
       <div className="sm:w-[15%] w-full flex flex-col">
